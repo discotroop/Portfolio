@@ -1,0 +1,52 @@
+/* Reset */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp,
+small, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body { 
+    font: 400 18px/25px Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+    *font-size:small; color: whitesmoke; }
+    /* #fff */
+a, a:hover, a:active { outline: none; }
+a:link { -webkit-tap-highlight-color: transparent; }
+h1, h2, h3, h4, h5, h6 { font-weight: 400; margin: 0; padding: 0; }
+ul { list-style: none; margin: 0; padding: 0; }
+a { text-decoration: none; }
+
+body {
+    background-color: lightseagreen;
+}
+
+.container {
+    margin: 5vw;
+    padding: 5vw;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
+}
+
+.container h1 {
+    font-size: 50px;
+    margin-bottom: 5vh;
+}
+.header h2 {
+    margin-top: 2vh;
+    font-size: 30px;
+    margin-bottom: 5vh;
+    line-height: 28px;
+}
