@@ -78,6 +78,12 @@ hr {
 .project {
     margin-bottom: 1vh;
 }
+.skills {
+    margin-bottom: 10vh;
+}
+.contact {
+    margin-bottom: 30vh;
+}
 
 h1 {
     font-weight: 600;
@@ -86,12 +92,13 @@ h3 {
     font-size: 30px;
     margin: 3vh 0 3vh;
 }
-
 h4 {
     font-size: 23px;
 }
-
 p {
     color: #d9e6f2;
     font-size: 15px;
+}
+.bigger {
+    font-size: 18px;
 }
